@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <huitx.libztframework.view.guide_view.GuideViewPager
+        android:id="@+id/gvp_welcome_guide"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <huitx.libztframework.view.guide_view.indicator.DotIndicator
+        android:id="@+id/dot_welcome_guide"
+        android:layout_marginTop="@dimen/margin_tb_large"
+        android:layout_marginBottom="@dimen/margin_tb_large"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/btn_welcome_guide"
+        android:text="下一步"
+        android:textSize="@dimen/margin_tb_large"
+        android:textColor="@color/text_color_normal"
+        android:background="@drawable/back_tv_advertising_draw"
+        android:layout_marginBottom="@dimen/margin_tb_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

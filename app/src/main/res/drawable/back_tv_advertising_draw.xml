@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:state_enabled="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="90dp" />
+            <solid android:color="#50302c27" />
+            <stroke android:color="#50302c27" android:width="2px"/> <!-- 描边 -->
+            <padding android:bottom="10dp" android:left="@dimen/margin_lr_large" android:right="15dp" android:top="10dp" /><!-- 各方向的间隔 -->
+        </shape>
+    </item>
+
+
+
+</selector>

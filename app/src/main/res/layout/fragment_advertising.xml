@@ -1,0 +1,28 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:detmain="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_advertising"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhxl.arcgisdemo.welcome.advertising.view.AdvertisingTextView
+        android:id="@+id/tv_welcome_advertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_lr_normal"
+        android:background="@drawable/back_tv_advertising_draw"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:text="跳过 4s"
+        android:textColor="@color/white"
+        android:textSize="@dimen/settings_text_size"
+        detmain:future_millis_length="4000"
+        detmain:layout_constraintRight_toRightOf="parent"
+        detmain:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fl_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
