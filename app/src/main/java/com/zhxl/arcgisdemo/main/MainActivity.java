@@ -158,6 +158,9 @@ public class MainActivity extends BaseFragmentActivity implements OnClickListene
     KotlinTestFragmentNew kotlinTestFragmentNew;
 
     private void initFragment() {
+
+
+        ///123
         gisMapFragment = new GISMapFragment();
         gisSceneFragment = new GISSceneFragment();
 
